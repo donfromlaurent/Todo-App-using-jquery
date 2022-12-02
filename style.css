@@ -1,0 +1,62 @@
+body{
+    font: normal normal 13px/16px sans-serif;
+    background: #dfdfdf;
+}
+.container{
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: white;
+    border-radius: 5px;
+}
+input{
+    padding: 4px 15px 4px 5px;
+}
+#addTodo{
+    display: inline-block;
+    background-color: tomato;
+    color: #ffffffff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 2px;
+    padding: 5px 15px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+}
+ol{
+    padding-left: 20px;
+}
+ol li{
+    padding: 5px;
+    color: #000;
+}
+ol li:nth-child(even){
+    background: #dfdfdf;
+}
+.strike{
+    text-decoration: line-through;
+}
+li:hover{
+    cursor: pointer;
+}
+.completed{
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: white;
+    border-radius: 5px;
+}
+p{
+    color: rgb(240, 15, 15);
+    text-decoration: underline;
+}
+em{
+    color: salmon;
+}
+.error{
+    display: none;
+}
